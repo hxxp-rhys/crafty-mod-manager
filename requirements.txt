@@ -1,0 +1,6 @@
+# Crafty Mod Manager
+PySide6>=6.6,<7          # GUI toolkit (Qt for Python)
+requests>=2.31           # Crafty v2 API, Modrinth, CurseForge
+paramiko>=3.4            # SSH / SFTP transport
+keyring>=24.0            # stores tokens in the Windows Credential Manager
+tomli>=2.0; python_version < "3.11"   # mods.toml parsing (stdlib tomllib on 3.11+)
